@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+maim /home/lucas/Pictures/$(date +%s).png
