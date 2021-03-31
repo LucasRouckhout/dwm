@@ -66,7 +66,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *lockcmd[]  = { "slock", NULL };
 static const char *printscrselection[] = { "gnome-screenshot -a", NULL };
-static const char *printscr[] = { "printscr", NULL };
+static const char *printscr[] = { "gnome-screenshot", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
