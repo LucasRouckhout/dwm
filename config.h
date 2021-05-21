@@ -65,8 +65,8 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *lockcmd[]  = { "slock", NULL };
-static const char *printscrselection[] = { "gnome-screenshot -a", NULL };
-static const char *printscr[] = { "gnome-screenshot", NULL };
+static const char *printscrselection[] = { "bash", "-c", "/home/lucas/Documents/code/scripts/printscrselection", NULL };
+static const char *printscr[] = { "bash", "-c", "/home/lucas/Documents/code/scripts/printscr", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
